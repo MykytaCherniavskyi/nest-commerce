@@ -10,7 +10,7 @@ interface IAddress {
 }
 
 export interface IUser extends Document {
-    name: string;
+    username: string;
     readonly password: string;
     seller: boolean;
     address: IAddress;
